@@ -17,7 +17,7 @@ public class SampleController {
 
     @GetMapping("/slowApi")
     public String timeConsumingAPI(@RequestParam(value = "delay", defaultValue = "0") Integer delay) throws InterruptedException {
-        if(delay == 0) {
+        if (delay == 0) {
             Random random = new Random();
             delay = random.nextInt(10);
         }

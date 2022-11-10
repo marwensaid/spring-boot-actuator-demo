@@ -1,6 +1,6 @@
-# Spring Boot Actuator: Health Check, Auditing, Metrics Gathering and Monitoring 
+# Spring Boot Actuator: Health Check, Auditing, Metrics Gathering and Monitoring
 
-## Tutorials 
+## Tutorials
 
 1. [Spring Boot Actuator: Health check, Auditing, Metrics gathering and Monitoring](https://www.callicoder.com/spring-boot-actuator/)
 2. [Spring Boot Actuator metrics monitoring with Prometheus and Grafana](https://www.callicoder.com/spring-boot-actuator-metrics-monitoring-dashboard-prometheus-grafana/)
@@ -32,4 +32,5 @@ The app will start running at <http://localhost:8080>.
 
 All the actuator endpoints will be available at <http://localhost:8080/actuator>.
 
-Some of the actuator endpoints are protected with Spring Security's HTTP Basic Authentication. You can use the username `actuator` and password `actuator` for http basic authentication.
+Some of the actuator endpoints are protected with Spring Security's HTTP Basic Authentication. You can use the
+username `actuator` and password `actuator` for http basic authentication.
